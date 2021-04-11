@@ -1,0 +1,59 @@
+{
+  "editor.lineNumbers": "relative",
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["f", "d"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[clojure]": {
+
+      "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
+      "editor.autoClosingBrackets": "always",
+      "editor.autoClosingQuotes": "always",
+      "editor.formatOnType": true,
+      "editor.autoIndent": "advanced",
+      "editor.formatOnPaste": true,
+      "editor.matchBrackets": "near",
+      "files.trimTrailingWhitespace": true,
+      "files.trimFinalNewlines": true
+  },
+  "calva.paredit.defaultKeyMap": "original",
+  "task.saveBeforeRun": "never",
+  "jupyter.askForKernelRestart": false,
+  "python.languageServer": "Pylance",
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "jupyter.alwaysTrustNotebooks": true,
+  "workbench.colorTheme": "Night Owl Light (No Italics)",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "editor.tokenColorCustomizations": {
+    "functions": "#4b83cd"
+  },
+  "bracket-pair-colorizer-2.colors": [
+    "#839496",
+    "#b58900",
+    "#268BD2",
+    "#d33682"
+  ],
+  "workbench.editor.enablePreview": false,
+  "calva.prettyPrintingOptions": {
+    "enabled": true,
+    "width": 50,
+    "maxLength": 30
+  },
+  "workbench.editor.showTabs": false,
+  "files.associations": {
+    "*.rkt": "racket"
+  },
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "window.zoomLevel": -1,
+}
